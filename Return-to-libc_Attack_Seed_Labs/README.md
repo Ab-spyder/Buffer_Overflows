@@ -16,4 +16,4 @@ A program that has the buffer-overflow vulnerability is given and we need to dev
 * exploit.py: the skeleton exploit code in Python
 * exploit.c: the skeleton exploit code in C
 
-*Credit: Seed Labs - https://seedsecuritylabs.org/Labs_16.04/Software/Return_to_Libc/*
+*Credit: SEED Labs - https://seedsecuritylabs.org/Labs_16.04/Software/Return_to_Libc/*
