@@ -1,11 +1,11 @@
 ## Simple Buffer Overflow
 
-The objective here was to exploit a very simple buffer overflow in the program called vuln_prog. 
+The objective here was to exploit a very simple buffer overflow in the program called vuln_prog.
 
 First, I have run vuln_prog with gdb using the command: gdb vuln_prog
 
 The size of the buffer in the program is 500 bytes. So we can try printing A's and try to fill up the buffer. We can use python or perl script. Run the following command in gdb.
-``` 
+```
 run $(python -c "print('A'*500)")
 ```
 The program exits normally. We now increment the A's and see if there is any variation in the output. At 508 A's we get a segmentation fault. While incrementing the number of A's and testing with gdb, we can confirm that the return address starts when we fill with 512 A's.
