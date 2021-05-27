@@ -1,4 +1,4 @@
-# Cross_Site_Scripting
+# Cross Site Scripting
 ## Introduction
 
 Cross-site scripting (XSS) is a type of computer security vulnerability typically found in web applications. This vulnerability makes it possible for attackers to inject malicious code (e.g. JavaScripts) into victim's web browser. Using this malicious code, the attackers can steal the victim's credentials, such as cookies. The access control policies (i.e., the same origin policy) employed by the browser to protect those credentials can be bypassed by exploiting the XSS vulnerability. Vulnerabilities of this kind have been exploited to craft powerful phishing attacks and browser exploits.
@@ -13,4 +13,4 @@ This is in a way that is similar to what Samy Kamkar did to MySpace in 2005 thro
 
 
 
-*Credit: SEED Labs - https://seedsecuritylabs.org/Labs_20.04/Web/Web_XSS_Elgg/
+*Credit: SEED Labs - https://seedsecuritylabs.org/Labs_20.04/Web/Web_XSS_Elgg/*
