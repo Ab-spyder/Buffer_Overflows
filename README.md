@@ -1,4 +1,4 @@
-# Buffer_Overflows
+# Buffer Overflows
 Exploiting Buffer Overflow vulnerabilities
 
 This repo consists of few of the different buffer overflow vulnerabilities I have managed to exploit and their writeups.
